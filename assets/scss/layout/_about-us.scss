@@ -48,6 +48,7 @@
     margin-bottom: toRem(30);
 
     &-left {
+      justify-content: center;
       align-items: flex-start;
       margin-left: toRem(20);
 
@@ -66,8 +67,22 @@
 
       &--picture {
         margin-bottom: 0;
-        max-width: toRem(500);
+        max-width: toRem(550);
       }
     }
+  }
+}
+
+@media (min-width: $break-1600) {
+  .about-us__section-right--picture {
+    max-width: toRem(700);
+  }
+
+  .about-us__section-left--heading {
+    font-size: toRem(35);
+  }
+
+  .about-us__section-left--paragraph {
+    font-size: toRem(20);
   }
 }
