@@ -1,4 +1,4 @@
-.nav-banner {
+.navBanner {
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -24,7 +24,7 @@
 }
 
 @media (min-width: $break-desktop){
-  .nav-banner{
+  .navBanner{
     flex-direction: row;
     padding-left: toRem(20);
     padding-right: toRem(20);
