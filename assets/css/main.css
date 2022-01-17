@@ -59,6 +59,100 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 100%;
+}
+
+.about-us {
+  background-color: #f7f7f7;
+  padding-top: 1.25rem;
+}
+
+.about-us__section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.about-us__section-left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.about-us__section-left--heading {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #131538;
+  margin-bottom: 0.625rem;
+}
+
+.about-us__section-left--paragraph {
+  font-family: "Mukta", sans-serif;
+  font-weight: 400;
+  line-height: 1.5625rem;
+  text-align: center;
+  margin-bottom: 1.875rem;
+  width: 80%;
+}
+
+.about-us__section-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.about-us__section-right--picture {
+  width: 90%;
+  margin-bottom: 1.875rem;
+}
+
+@media (min-width: 57.5rem) {
+  .about-us__section {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin-bottom: 1.875rem;
+  }
+  .about-us__section-left {
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    margin-left: 1.25rem;
+  }
+  .about-us__section-left--heading {
+    font-size: 1.875rem;
+  }
+  .about-us__section-left--paragraph {
+    text-align: left;
+    font-size: 1.0625rem;
+  }
+  .about-us__section-right {
+    width: 90%;
+  }
+  .about-us__section-right--picture {
+    margin-bottom: 0;
+    max-width: 31.25rem;
+  }
 }
 /*# sourceMappingURL=main.css.map */
