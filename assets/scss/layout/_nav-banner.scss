@@ -1,0 +1,41 @@
+.nav-banner {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: $main-blue;
+  color: $white;
+  width: 100%;
+  padding-top: toRem(20);
+  padding-bottom: toRem(20);
+
+
+  &__logo{
+    width: 20%;
+    max-width: 80px;
+    min-width: 80px;
+    margin-bottom: toRem(15);
+  }
+
+  &__heading {
+    font-family: $ssp;
+    font-size: toRem(30);
+    font-weight: 600;
+  }
+}
+
+@media (min-width: $break-desktop){
+  .nav-banner{
+    flex-direction: row;
+    padding-left: toRem(20);
+    padding-right: toRem(20);
+
+    &__logo{
+      margin-bottom: 0;
+    }
+
+    &__heading{
+      margin: 0 auto;
+      font-size: toRem(40);
+    }
+  }
+}
