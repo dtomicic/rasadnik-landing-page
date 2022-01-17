@@ -1,0 +1,30 @@
+.contact {
+  background-color: $white;
+  padding-top: toRem(20);
+  display: flex;
+  justify-content: center;
+
+  &__section-form {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: toRem(30);
+  }
+
+  &__section-label {
+    margin: 0 auto;
+    font-family: $ssp;
+    font-size: toRem(17);
+    margin-bottom: toRem(5);
+  }
+
+  &__section-textarea {
+    margin-bottom: toRem(10);
+    font-family: $mukta;
+  }
+
+  &__section-submit {
+    margin-top: toRem(20);
+    font-family: $ssp;
+    font-size: toRem(15);
+  }
+}

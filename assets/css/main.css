@@ -300,4 +300,44 @@
     font-family: "Source Sans Pro", sans-serif;
   }
 }
+
+.contact {
+  background-color: #f7f7f7;
+  padding-top: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.contact__section-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 1.875rem;
+}
+
+.contact__section-label {
+  margin: 0 auto;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.0625rem;
+  margin-bottom: 0.3125rem;
+}
+
+.contact__section-textarea {
+  margin-bottom: 0.625rem;
+  font-family: "Mukta", sans-serif;
+}
+
+.contact__section-submit {
+  margin-top: 1.25rem;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 0.9375rem;
+}
 /*# sourceMappingURL=main.css.map */
