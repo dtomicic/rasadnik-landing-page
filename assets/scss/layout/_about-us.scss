@@ -1,4 +1,4 @@
-.about-us {
+.aboutUs {
   background-color: $white;
   padding-top: toRem(20);
 
@@ -43,7 +43,7 @@
 }
 
 @media (min-width: $break-desktop) {
-  .about-us__section {
+  .aboutUs__section {
     flex-direction: row;
     margin-bottom: toRem(30);
 
@@ -74,15 +74,15 @@
 }
 
 @media (min-width: $break-1600) {
-  .about-us__section-right--picture {
+  .aboutUs__section-right--picture {
     max-width: toRem(700);
   }
 
-  .about-us__section-left--heading {
+  .aboutUs__section-left--heading {
     font-size: toRem(35);
   }
 
-  .about-us__section-left--paragraph {
+  .aboutUs__section-left--paragraph {
     font-size: toRem(20);
   }
 }
